@@ -15,3 +15,5 @@ ArraylistLinkedlist:https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main
 1c p7 output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/1c%20p7.png
 
 1c p8 output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/1c%20p8.png
+
+1c p9 output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/1c%20p9.png
