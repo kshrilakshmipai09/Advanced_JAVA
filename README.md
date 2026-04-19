@@ -27,3 +27,5 @@ ArraylistLinkedlist:https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main
 2b output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/2b.png
 
 3b output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/3b.png
+
+3c output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/3c.png
