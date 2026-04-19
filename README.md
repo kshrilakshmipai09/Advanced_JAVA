@@ -32,3 +32,4 @@ ArraylistLinkedlist:https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main
 
 4a output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/4a.png
 
+4b output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/4b.png
