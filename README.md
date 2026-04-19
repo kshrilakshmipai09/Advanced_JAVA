@@ -21,3 +21,5 @@ ArraylistLinkedlist:https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main
 1c p10 output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/1c%20p10.png
 
 2a(1) output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/2a(1).png
+
+2a(2) output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/2a(2).png
