@@ -41,3 +41,5 @@ ArraylistLinkedlist:https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main
 5b output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/5b.png
 
 5c output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/5c.png
+
+5d output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/5d.png
