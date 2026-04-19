@@ -7,3 +7,5 @@ ArraylistLinkedlist:https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main
 1b p3 output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/1b%20p3.png
 
 1b p4 output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/1b%20p4.png
+
+1b p5 output: https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/main/1b%20p5.png
