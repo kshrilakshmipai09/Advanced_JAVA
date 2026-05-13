@@ -6,3 +6,4 @@ Output for mini project(Delete Patient):https://github.com/kshrilakshmipai09/Adv
 Output for mini project(Deleted Patient Details):https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/HospitalManagementSystem/Project%20output%206.png
 Output for mini project(Report Page):https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/HospitalManagementSystem/Project%20output%207.png
 Output for mini project(Report Found):https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/HospitalManagementSystem/Project%20output%208.png
+Output for mini project(Print Report):https://github.com/kshrilakshmipai09/Advanced_JAVA/blob/HospitalManagementSystem/Project%20output%209.png
