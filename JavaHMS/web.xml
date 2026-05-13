@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    
+    <display-name>Hospital Management System</display-name>
+    <description>HMS - Patient Management System with Reports</description>
+    
+    <!-- Welcome File List -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    
+    <!-- ============================================ -->
+    <!-- SERVLET DEFINITIONS                           -->
+    <!-- ============================================ -->
+    
+    <!-- Servlet: Add Patient -->
+    <servlet>
+        <servlet-name>AddPatientServlet</servlet-name>
+        <servlet-class>com.servlet.AddPatientServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet: Display All Patients -->
+    <servlet>
+        <servlet-name>DisplayPatientsServlet</servlet-name>
+        <servlet-class>com.servlet.DisplayPatientsServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet: Delete Patient -->
+    <servlet>
+        <servlet-name>DeletePatientServlet</servlet-name>
+        <servlet-class>com.servlet.DeletePatientServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet: Update Patient -->
+    <servlet>
+        <servlet-name>UpdatePatientServlet</servlet-name>
+        <servlet-class>com.servlet.UpdatePatientServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet: Generate Report -->
+    <servlet>
+        <servlet-name>GenerateReportServlet</servlet-name>
+        <servlet-class>com.servlet.GenerateReportServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet: Report Criteria -->
+    <servlet>
+        <servlet-name>ReportCriteriaServlet</servlet-name>
+        <servlet-class>com.servlet.ReportCriteriaServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet: View Records (Alternative mapping) -->
+    <servlet>
+        <servlet-name>ViewRecordsServlet</servlet-name>
+        <servlet-class>com.servlet.DisplayPatientsServlet</servlet-class>
+    </servlet>
+    
+    <!-- ============================================ -->
+    <!-- SERVLET MAPPINGS                             -->
+    <!-- ============================================ -->
+    
+    <!-- Add Patient Mapping -->
+    <servlet-mapping>
+        <servlet-name>AddPatientServlet</servlet-name>
+        <url-pattern>/addPatient</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Display Patients Mapping -->
+    <servlet-mapping>
+        <servlet-name>DisplayPatientsServlet</servlet-name>
+        <url-pattern>/displayPatients</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Delete Patient Mapping -->
+    <servlet-mapping>
+        <servlet-name>DeletePatientServlet</servlet-name>
+        <url-pattern>/deletePatient</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Update Patient Mapping -->
+    <servlet-mapping>
+        <servlet-name>UpdatePatientServlet</servlet-name>
+        <url-pattern>/updatePatient</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Generate Report Mapping -->
+    <servlet-mapping>
+        <servlet-name>GenerateReportServlet</servlet-name>
+        <url-pattern>/generateReport</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Report Criteria Mapping -->
+    <servlet-mapping>
+        <servlet-name>ReportCriteriaServlet</servlet-name>
+        <url-pattern>/reportCriteria</url-pattern>
+    </servlet-mapping>
+    
+    <!-- View Records Mapping -->
+    <servlet-mapping>
+        <servlet-name>ViewRecordsServlet</servlet-name>
+        <url-pattern>/viewRecords</url-pattern>
+    </servlet-mapping>
+    
+    <!-- ============================================ -->
+    <!-- SESSION CONFIGURATION                        -->
+    <!-- ============================================ -->
+    
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+    
+    <!-- ============================================ -->
+    <!-- ERROR PAGES (Optional)                       -->
+    <!-- ============================================ -->
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error404.jsp</location>
+    </error-page>
+    
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error500.jsp</location>
+    </error-page>
+    
+    <!-- ============================================ -->
+    <!-- MIME MAPPINGS                                -->
+    <!-- ============================================ -->
+    
+    <mime-mapping>
+        <extension>css</extension>
+        <mime-type>text/css</mime-type>
+    </mime-mapping>
+    
+    <mime-mapping>
+        <extension>js</extension>
+        <mime-type>application/javascript</mime-type>
+    </mime-mapping>
+    
+</web-app>
